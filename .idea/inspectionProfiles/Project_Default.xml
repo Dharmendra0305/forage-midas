@@ -1,0 +1,78 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="BusyWait" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="FieldCanBeLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="EXCLUDE_ANNOS">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="jakarta.persistence.Id" />
+            <item index="1" class="java.lang.String" itemvalue="jakarta.persistence.ManyToOne" />
+          </list>
+        </value>
+      </option>
+      <option name="IGNORE_FIELDS_USED_IN_MULTIPLE_METHODS" value="true" />
+    </inspection_tool>
+    <inspection_tool class="InfiniteLoopStatement" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+          <option value="midas-core" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.springframework:spring-context:6.1.6" />
+          <option value="ch.qos.logback:logback-classic:1.4.14" />
+          <option value="org.apache.tomcat.embed:tomcat-embed-core:10.1.20" />
+          <option value="org.springframework:spring-web:6.1.6" />
+          <option value="org.springframework:spring-webmvc:6.1.6" />
+          <option value="org.apache.kafka:kafka-clients:3.6.2" />
+          <option value="net.minidev:json-smart:2.5.1" />
+          <option value="org.xmlunit:xmlunit-core:2.9.1" />
+          <option value="ch.qos.logback:logback-core:1.4.14" />
+          <option value="commons-io:commons-io:2.11.0" />
+          <option value="io.netty:netty-common:4.1.109.Final" />
+          <option value="io.netty:netty-handler:4.1.109.Final" />
+          <option value="org.apache.kafka:kafka_2.13:3.6.2" />
+          <option value="org.apache.commons:commons-compress:1.24.0" />
+          <option value="org.springframework:spring-beans:6.1.6" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
